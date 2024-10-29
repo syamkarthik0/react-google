@@ -1,0 +1,42 @@
+.App {
+  display: flex;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  width: 200px;
+  padding: 20px;
+}
+
+.sidebar button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.movies {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movie {
+  width: 200px;
+  margin: 10px;
+}
+
+.movie img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.movie h3 {
+  margin: 10px 0 5px;
+}
+
+.movie p {
+  color: #555;
+}
